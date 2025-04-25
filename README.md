@@ -78,6 +78,11 @@ selanjutnya, kita akan membuat vm yang digunakan untuk menjalankan aplikasi kita
 4. **Buat VM**
    Klik **"Create"** dan tunggu hingga instance selesai dibuat.
 
+5. **Atur Static IP**
+
+    Cari layanan *IP Addresses* setelah itu cari ip external anda pada daftar. Tekan promote to static sesuai pada gambar.
+    ![ip-static](img/static.png)
+
 
 Setelah VM aktif, tekan tombol SSH lalu akan muncul pop-up yang meminta anda untuk mengizinkan SSH pada browser. Tekan `Authorize` untuk melanjutkan setup vm.
 
@@ -124,7 +129,7 @@ SUPPORT_URL="https://www.debian.org/support"
 BUG_REPORT_URL="https://bugs.debian.org/"
 ```
 
-disitu kita bisa tahu bahwasannya kita menggunakan Debian. Untuk itu, kita akan menginstall docker engine dan docker compose menggunakan tutorial pada dokumentasi docker. [install docker engine debian](https://docs.docker.com/desktop/setup/install/linux/debian/)
+disitu kita bisa tahu bahwasannya kita menggunakan Debian. Untuk itu, kita akan menginstall docker engine dan docker compose menggunakan tutorial pada dokumentasi docker. [install docker engine debian](https://docs.docker.com/engine/install/debian/)
 
 selanjutnya seperti pada dokumentasi kita diminta menghapus beberpa package menggunakan baris berikut
 
